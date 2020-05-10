@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Projeto Airbnb </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/airbnb2.png"/>
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- INICIO HEADER -->
+        <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+            <a class="navbar-brand" href="#">
+                <img src="imagens/airbnb.jpg" />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#"> Hospede em sua acomodação </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Hospede uma experiências </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Ajuda </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Entrar </a>
+                    </li>
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="#" id="cadatro"> Cadastre-se </a>
+                    </li>
+                    <img class="avatar-large" alt="avatar-large" src="imagens/Andre.jpg" />
+                </ul>
+            </div>
+        </div>
+        <!-- FIM HEADER -->
+
+        <!-- INICIO NAVBAR LUGARES -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Lugares para ficar <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Estadias longas </a>
+                    </li>
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Esperiências </a>
+                    </li>
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Experiências Online </a>
+                    </li>
+                    <li class="new">
+                        <h6> NOVO </h6>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- FIM NAVBAR LUGARES -->
+
+
+       <div id="cards"> 
+        </div> 
+
+
+        <!-- COMEÇO "SAIBA MAIS" -->
+        <div class="row" id="saibamais">
+
+            <div class="col-md-3">
+                <ul class="listSaiba">
+                    <h3> SOBRE </h3>
+                    <li > <a class="textSaiba" href="#"> Diversidade e pertencimento </a></li>
+                    <li > <a class="textSaiba" href="#"> Acessibilidade </a></li>
+                    <li > <a class="textSaiba" href="#"> Confiança e segurança </a></li>
+                    <li > <a class="textSaiba" href="#"> Airbnb Citizen </a></li>
+                    <li > <a class="textSaiba" href="#"> Newsroom</a> </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <ul class="listSaiba">
+                    <h3> COMUNIDADE </h3>
+                    <li > <a class="textSaiba" href="#"> Airbnb Magazine </a></li>
+                    <li > <a class="textSaiba" href="#"> Airbnb for Work </a></li>
+                    <li > <a class="textSaiba" href="#"> Convide amigos </a></li>
+                    <li > <a class="textSaiba" href="#"> Carreiras </a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <ul class="listSaiba">
+                    <h3> ANFITRIÃO </h3>
+                    <li > <a class="textSaiba" href="#"> Hospede em sua acomodação </a></li>
+                    <li > <a class="textSaiba" href="#"> Ofereça uma experiência </a></li>
+                    <li > <a class="textSaiba" href="#"> Hospedagem responsável </a></li>
+                    <li > <a class="textSaiba" href="#"> Open Homes </a></li>
+                    <li > <a class="textSaiba" href="#"> Olimpíadas </a> </li>
+                    <li > <a class="textSaiba" href="#"> Central de Recursos </a> </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <ul class="listSaiba">
+                    <h3> ATENDIMENTO </h3>
+                    <li > <a class="textSaiba" href="#"> Central de Ajuda </a></li>
+                    <li > <a class="textSaiba" href="#"> Atendimento ao Bairro</a> </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- FIM "SAIBA MAIS" -->
+
+        <hr>
+
+        <!-- INICIO FOOTER -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li >
+                        <a class="nav-link"> © 2020 Airbnb, Inc. All rights reserved <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Privacidade </a>
+                    </li>
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Termos </a>
+                    </li>
+                    <li class="nav-header">
+                        <a class="nav-link" href="#"> Mapa do Site </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="icons"> 
+                <div> <a href="#"> <img src="imagens/facebook.png"/> </a> </div>
+                <div> <a href="#"> <img src="imagens/instagram.png"/> </a> </div>
+                <div> <a href="#"> <img src="imagens/twitter.png"/> </a> </div> 
+            </div>    
+        </nav>
+        <!-- FIM FOOTER -->
+
+    </div>
+    <!-- FIM CONTAINER -->
+
+
+</body>
+
+    <script src="./script.js" ></script>
+
+</html>
